@@ -13,7 +13,7 @@ function Contentstack(props) {
 			<div className={styles["banner"]}>
 				<nav className={styles["nav"]}>
 					<img
-						className={styles["banner-logo"]}
+						className={styles["logo"]}
 						src={contentstack.contentstackLogo}
 						alt="Logo"
 					/>
@@ -29,7 +29,7 @@ function Contentstack(props) {
 				</nav>
 				<div>
 					<h1 className={styles["heading"]}>{contentstack.heading}</h1>
-					<h3 className={styles["sub-heading"]}>{contentstack.subHeading}</h3>
+					<h3 className={styles["sub-head"]}>{contentstack.subHeading}</h3>
 					<button className={styles["button"]}>TRY FOR FREE</button>
 				</div>
 			</div>

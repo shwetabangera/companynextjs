@@ -13,7 +13,7 @@
 	justify-content: space-between;
 	padding: 10px;
 }
-.banner-logo {
+.logo {
 	width: 30vh;
 	height: 5vh;
 	margin: 2vh;
@@ -35,7 +35,7 @@
 	margin: 9% auto 0%;
 	text-align: center;
 }
-.sub-heading {
+.sub-head {
 	width: 78%;
 	color: white;
 	text-align: center;
@@ -62,7 +62,7 @@
 }
 
 @media (max-width: 200px) {
-	.banner-logo {
+	.logo {
 		width: 20vh;
 		height: auto;
 		margin: auto;

@@ -14,7 +14,7 @@ function RawEngineering(props) {
 				<div className={styles["header"]}>
 					<nav className={styles["navigation"]}>
 						<img
-							className={styles["company-logo"]}
+							className={styles["logo"]}
 							src={rawEngineering.rawEngineeringLogo}
 							alt="Logo"
 						/>
@@ -42,7 +42,7 @@ function RawEngineering(props) {
 				</div>
 			</div>
 			<div>
-				<p className={styles["intro-text"]}>{rawEngineering.shortIntro}</p>
+				<p className={styles["intro"]}>{rawEngineering.shortIntro}</p>
 				<p className={styles["section-heading"]}>-----WHAT WE DO-----</p>
 				{rawEngineering.whatWeDo.map((task, i) => {
 					return (

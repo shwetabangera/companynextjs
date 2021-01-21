@@ -1,0 +1,75 @@
+.banner {
+	width: 100%;
+	height: auto;
+	background: no-repeat
+		url(https://images.contentstack.io/v3/assets/bltc5a09bf374882538/blt0eac3686a06a4a3f/5f1a2be2ecbff322d09554d6/hero-carousel-1.jpg);
+	background-size: 200vh 200vh;
+	text-align: center;
+}
+.nav {
+	width: 90%;
+	display: flex;
+	margin: auto;
+	justify-content: space-between;
+	padding: 10px;
+}
+.banner-logo {
+	width: 30vh;
+	height: 5vh;
+	margin: 2vh;
+}
+.options {
+	display: flex;
+	color: white;
+	justify-content: space-between;
+}
+.lists {
+	padding: 10px;
+}
+.heading {
+	width: 75%;
+	color: white;
+	font-size: 60px;
+	line-height: 70px;
+	letter-spacing: -1px;
+	margin: 9% auto 0%;
+	text-align: center;
+}
+.sub-heading {
+	width: 78%;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.4;
+}
+.button {
+	display: inline-block;
+	border-radius: 3px;
+	background: #eb5646;
+	background-image: none;
+	color: #fff;
+	padding: 0 30px;
+	line-height: 2.5;
+	margin: 3%;
+}
+
+.footer-section {
+	text-decoration: none;
+	display: flex;
+	justify-content: space-around;
+
+	background-color: white;
+}
+
+@media (max-width: 200px) {
+	.banner-logo {
+		width: 20vh;
+		height: auto;
+		margin: auto;
+	}
+	.button {
+		margin: 1vh auto;
+		font-size: 10px;
+		width: 70px;
+	}
+}

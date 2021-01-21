@@ -1,0 +1,156 @@
+.header {
+	background-color: black;
+	color: white;
+	height: 90vh;
+	margin-bottom: 10vh;
+	font-family: "Times New Roman", Times, serif;
+}
+.navigation {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	box-shadow: 1px 1px 10px 1px rgb(187, 170, 170);
+}
+.company-logo {
+	width: 25vh;
+	height: 10vh;
+	margin: 2vh 10vh;
+}
+.nav-links {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: center;
+	margin: 2vh 10vh;
+	margin-left: 0px;
+	font-size: 15px;
+}
+.nav-item {
+	margin: 3vh;
+}
+.banner {
+	display: flex;
+	justify-content: space-between;
+}
+.banner-text {
+	width: 40%;
+	margin: 5vh 15vh;
+}
+.banner-title {
+	font-size: 40px;
+}
+.banner-subtitle {
+	font-size: 20px;
+}
+.banner-image {
+	width: 80vh;
+	height: 80vh;
+	margin: 0px 5vh;
+}
+.banner-image img {
+	width: 100%;
+	height: 100%;
+}
+.intro-text {
+	font-size: 18px;
+	margin: 15vh;
+}
+.section-heading {
+	text-align: center;
+	color: rgb(243, 54, 54);
+}
+.what-we-do {
+	width: 80%;
+	margin: 5vh auto;
+	display: flex;
+	justify-content: space-between;
+}
+.what-we-do-image {
+	width: 30%;
+	margin: auto;
+}
+.what-we-do-image img {
+	width: 100%;
+	height: 100%;
+}
+.what-we-do-text {
+	margin: 5vh;
+}
+.what-we-do-heading {
+	font-size: 20px;
+}
+.what-we-do-subheading {
+	font-size: 15px;
+}
+
+.footer-container {
+	background-color: black;
+	color: white;
+}
+.footer-heading {
+	text-align: center;
+	font-size: 30px;
+	padding: 10vh;
+}
+.copyright-container {
+	display: flex;
+	flex-direction: column;
+	margin: 0px 10vh;
+	padding-bottom: 10vh;
+}
+.copyright-links {
+	display: flex;
+}
+.copyright-links p {
+	margin-right: 5vh;
+}
+.copyright-image {
+	width: 10vh;
+}
+.copyright-image img {
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 400px) {
+	.header {
+		height: 75vh;
+		margin-bottom: 2vh;
+	}
+	.navigation {
+		justify-content: center;
+	}
+	.banner-image {
+		height: 30vh;
+	}
+	.banner-title {
+		font-size: 20px;
+	}
+	.banner-subtitle {
+		font-size: 15px;
+	}
+	.intro-text,
+	.section-heading {
+		font-size: 15px;
+	}
+	.what-we-do {
+		margin: 2vh auto;
+	}
+	.what-we-do-text {
+		margin: 0px auto;
+	}
+	.what-we-do-heading {
+		font-size: 15px;
+	}
+	.what-we-do-subheading {
+		font-size: 12px;
+	}
+	.footer-heading {
+		font-size: 20px;
+		padding: 5vh;
+	}
+	.copyright-container {
+		font-size: 12px;
+	}
+}

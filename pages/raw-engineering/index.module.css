@@ -10,7 +10,6 @@
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	box-shadow: 1px 1px 10px 1px rgb(187, 170, 170);
 }
 .logo {
 	width: 25vh;

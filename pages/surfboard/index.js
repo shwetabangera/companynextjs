@@ -21,7 +21,7 @@ function Surfboard(props) {
 			<div className={styles["header"]}>
 				<nav className={styles["navigation"]}>
 					<img
-						className={styles["company-logo"]}
+						className={styles["logo"]}
 						src={surfboard.surfboardLogo}
 						alt="Logo"
 					/>
@@ -39,7 +39,7 @@ function Surfboard(props) {
 					<div className={styles["nav-links"]}>
 						{surfboard.navigationLinks.map((link, i) => {
 							return (
-								<p className={styles["nav-item"]} key={i}>
+								<p className={styles["nav"]} key={i}>
 									{link}
 								</p>
 							);
